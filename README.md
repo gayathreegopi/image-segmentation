@@ -1,10 +1,10 @@
 # Image Segmentation Using Linear Programming and Max Flow Min Cut Theorem
 
-This repository contains a novel tool for grayscale image segmentation that leverages linear programming, specifically the max flow/min cut theorem, to process images and separate foreground from background. The tool is designed to handle diverse image complexities efficiently, making it a robust solution for various segmentation tasks.
+This repository contains a novel tool for grayscale image segmentation that leverages linear programming, specifically the max-flow/min-cut theorem, to process images and separate foreground from background. The tool is designed to handle diverse image complexities efficiently, making it a robust solution for various segmentation tasks.
 
 ## Project Overview
 
-The project applies the max flow/min cut theorem to represent each image as a flow network where pixels are treated as nodes, and edges represent the similarity between neighboring pixels. Using linear programming, the tool identifies optimal cuts that minimize the "water flow" between regions, segmenting images into foreground and background.
+The project applies the max-flow/min-cut theorem to represent each image as a flow network where pixels are treated as nodes, and edges represent the similarity between neighboring pixels. Using linear programming, the tool identifies optimal cuts that minimize the "water flow" between regions, segmenting images into foreground and background.
 
 ## Contributions
 
